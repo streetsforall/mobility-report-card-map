@@ -1,31 +1,44 @@
 <!doctype html>
-<html lang="">
+<html lang="en-US">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
 
-  <link rel="stylesheet" href="css/style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
 
-</head>
+    <link rel="stylesheet" href="css/style.css">
 
-<body>
-  <a href="https://www.streetsforall.org/initiatives/2021-2022-state-legislators"><img class="logo" src="img/logo-square.png" alt="Streets For all"></a>
-  
-  <div id="map"></div>
-  <div class='map-legend'>
-    <div><strong>County:</strong> <span id='county-name'></span></div>
-    <div><strong>County Code:</strong> <span id='county-code'></span></div>
-    <div><strong>County Abbreviation:</strong> <span id='county-abbr'></span></div>
-  </div>
-  <script src='js/app.js'></script>
-  
-</body>
+  </head>
+
+  <body>
+    <a href="https://www.streetsforall.org/initiatives/2021-2022-state-legislators"><img class="logo" src="img/logo-square.png" alt="Streets For all"></a>
+
+    <nav id="menu"></nav>
+    <div class='map-legend'>
+      <div><strong>County:</strong> <span id='county-name'></span></div>
+      <div><strong>County Code:</strong> <span id='county-code'></span></div>
+      <div><strong>County Abbreviation:</strong> <span id='county-abbr'></span></div>
+      <hr>
+      <div><strong>SenateDistrictName:</strong> <span id='senate-district-name'></span></div>
+      <div><strong>SenateDistrictLabel:</strong> <span id='senate-district-label'></span></div>
+      <div><strong>SenateAreaSqMi:</strong> <span id='senate-area-sq-mi'></span></div>
+      <hr>
+      <div><strong>AssemblyDistrictName:</strong> <span id='assembly-district-name'></span></div>
+      <div><strong>AssemblyDistrictLabel:</strong> <span id='assembly-district-label'></span></div>
+      <div><strong>AssemblyAreaSqMi:</strong> <span id='assembly-area-sq-mi'></span></div>
+    </div>
+   
+    <div id="map"></div>
+    <script src='js/app.js'></script>
+    <script src='js/county.js'></script>
+    <script src='js/senate.js'></script>
+    <script src='js/assembly.js'></script>
+
+  </body>
 
 </html>

@@ -6,8 +6,8 @@
 - [2021-22 Mobility Report Card](https://www.streetsforall.org/initiatives/2021-2022-state-legislators)
 
 ### GIS
-
 - [California State Geoportal](https://gis.data.ca.gov)
+- [Legislative Districts in California](https://gis.data.ca.gov/maps/CDEGIS::legislative-districts-in-california-2/about)
 - [California County Boundaries](https://gis.data.ca.gov/datasets/CALFIRE-Forestry::california-county-boundaries/explore?location=37.148521%2C-119.002032%2C7.25)
 
 ### Mapbox
