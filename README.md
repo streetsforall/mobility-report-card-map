@@ -13,5 +13,5 @@
 ### Mapbox
 - [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/)
 - [Mapbox Load data from an external GeoJSON file](https://docs.mapbox.com/mapbox-gl-js/example/external-geojson/)
-- [Create hover effect](Create a hover effect)
+- [Create hover effect](https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/)
 - [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/)
