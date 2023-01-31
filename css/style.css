@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  border-left: 15px solid #e75ba0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  max-width: 100px;
+}
+
+
+.map-legend {
+  position: absolute;
+  font-family: monospace;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  padding: 5px;
+  width: 15%;
+  border: 2px solid #e75ba0;
+  font-size: 1em;
+  color: #173362;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 2;
+}
