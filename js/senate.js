@@ -11,7 +11,7 @@ map.on('load', () => {
     source: 'senate-districts',
     'layout': {},
     paint: {
-      'fill-color': '#ffb531',
+      'fill-color': '#f97944',
       'fill-outline-color': '#033662',
       'fill-opacity': [
         'case',
@@ -28,7 +28,7 @@ map.on('load', () => {
   //   source: 'senate-districts',
   //   'layout': {},
   //   paint: {
-  //     'line-color': '#ffb531',
+  //     'line-color': '#f97944',
   //     'line-width': 0.5
   //   }
   // });

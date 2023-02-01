@@ -1,4 +1,4 @@
-# Mobility Report Card Sample Map
+# Mobility Report Card Sample Web Map
 
 ## Links
 
@@ -12,6 +12,10 @@
 
 ### Mapbox
 - [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/)
+- [Style Specification Layers](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/)
 - [Mapbox Load data from an external GeoJSON file](https://docs.mapbox.com/mapbox-gl-js/example/external-geojson/)
 - [Create hover effect](https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/)
 - [Create interactive hover effects with Mapbox GL JS](https://docs.mapbox.com/help/tutorials/create-interactive-hover-effects-with-mapbox-gl-js/)
+
+## Contributors
+- [Scott Gruber](https://scottgruber.me)
